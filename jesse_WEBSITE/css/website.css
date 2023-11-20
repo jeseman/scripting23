@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;900&display=swap');
+#masthead{
+    background-image: linear-gradient(to right top, #84B026, #94c42c, #71991c, #46600e, #698d1c);
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2{
+font-family: 'Roboto', sans-serif; 
+}
+
+/***********************NAV Bar***********************/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #217373;
+  }
+
+  nav li {
+    float: left;
+  }
+  
+  nav a, nav a:visited {
+    display: block;
+    padding: 10px;
+    background-color: #217373;
+    text-decoration: none;
+    color: white;
+  }
+
+  nav a:hover{
+    background-color: #217373;
+  }
+
+#thumbnails{
+    background-color: #161f30;
+    
+}
+
+#about{
+    background-color: #3d3d3d;
+}
+
+#bio{
+    background-color: #3d3d3d;
+}
+
+.bg-darkGrey{
+    background-color: #333132;
+}
+
+.bg-scallop{
+    background-image: url("../images/backgrounds/scallop.jpg");
+    background-repeat: repeat-x;
+    background-color: #333132;
+}
+
+body{
+font-family: 'Montserrat', sans-serif;
+}
